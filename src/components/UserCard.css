@@ -19,11 +19,11 @@
 .tarjeta.info{
     padding: 20px;
 }
-.profesion {
+/* .profesion {
     color: var(--text-secondary);
     font-size: 0.9rem;
     margin: 8px 0 16px;
-}
+} */
 
 .btn-conectar{
     background-color: var(--accent);
@@ -33,4 +33,21 @@
     border-radius: 20px;
     cursor: pointer;
     font-weight: 600;
+    margin-bottom: 20px;/*Subir el boton*/
+}
+
+/*1. *Reduciomos el logo a tamaño *icono*/
+.icono-red-social {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.profesion{
+    display: flex;
+    align-items: center;/*Centra verticalmente*/
+    justify-content: center;/*Centra horizontalmente la tarjeta*/
+    gap: 8px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 8px 0 16px;
 }

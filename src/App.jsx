@@ -6,6 +6,8 @@ function App() {
   return (
     <main className='contenedor-principal'>
       <header className='cabecera-app'>
+        {/*SOLUCIÓN:1: La imagen de public/ se llama directamente con una barra*/}
+        <img src='/banner.jpeg' alt='Fondo decorativo' className='imagen-banner' />
         <h1>Directorio de empleados</h1>
         <p>Aprende React usando arquitectura correcta.</p>
       </header>
