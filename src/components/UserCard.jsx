@@ -1,3 +1,4 @@
+import linkedinLogo from '../assets/linkedin.png'
 function UserCard(props) {
   return(
   //MAGIA TAILWIND
@@ -14,11 +15,15 @@ function UserCard(props) {
       <p className="text-sm text-gray-500 my-3 flex items-center
       justify-center gap-2">
         {props.profesion}
+                    <img src={linkedinLogo} alt='Linkedin' className='w-5 h-5'>
+      </img>
       </p>
+
       <button className="bg-blue-600 text-white px-6 py-2 rounded-full
       font-bold hover:bg-blue-700 transition-colors">
         Conectar
       </button>
+
     </div>
   </div>
   );
