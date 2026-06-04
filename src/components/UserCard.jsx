@@ -4,7 +4,7 @@ function UserCard(props) {
   //MAGIA TAILWIND
   <div className="bg-white w-64 rounded-xl shadow-lg 
   overflow-hidden hover:shadow-2x1 hover:-translate-y-2 transition-all
-  duration-300">
+  duration-300 brightness-200">
     <img
       src={props.imagen}
       alt="Foto de Perfil"
@@ -15,7 +15,7 @@ function UserCard(props) {
       <p className="text-sm text-gray-500 my-3 flex items-center
       justify-center gap-2">
         {props.profesion}
-                    <img src={linkedinLogo} alt='Linkedin' className='w-5 h-5'>
+        <img src={linkedinLogo} alt='Linkedin' className='w-5 h-5'>
       </img>
       </p>
 
